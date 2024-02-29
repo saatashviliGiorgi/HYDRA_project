@@ -1,0 +1,528 @@
+@media(max-width: 950px){
+    .sec-1__main{
+        height: 80vh;
+        margin: {
+            bottom: 10vh;
+        };
+        .sec-1__main__body{
+        padding: 10vh 2vw;
+
+          .sec-1__main__body__flex-box{
+            .sec-1__main__body__flex-box__img{
+                & img{
+                    height: 55vh;
+                }
+            }
+          }
+        }
+    }
+
+    .sec-2__main{
+        margin: 0 0 15vh;
+    }
+
+    .sec-3__main-flex{
+        padding: 0 4vw;
+
+        .sec-3__main-flex__img{
+            & img{
+                height: 60vh;
+                width: 40vw;
+                }
+        }
+
+        .sec-3__main-flex__texts{
+            font-size: 0.8rem;
+        }
+    }
+}
+
+
+.sec4__main-flex{
+    padding: 0 2vw;
+    .sec4__main-flex_box1, .sec4__main-flex_box2{
+        .sec4__main-flex_box1__card,.sec4__main-flex_box2__card{
+            .sec4__main-flex_box1__card__top-sec,.sec4__main-flex_box2__card__top-sec{
+                padding: 0;
+                & img{
+                    height: 15vh;
+                }
+            }
+        }
+    }
+}
+
+.sec5__main{
+    margin: 10vh 0 0;
+
+    .sec5__main__bottom-sec{
+        margin: {
+            top: 5vh;
+        };
+        & img{
+            width: 18vw;
+        }
+    }
+}
+
+.sec6-main{
+    margin: 10vh auto 5vh;
+}
+
+.sec7__main{
+    .sec7__main__flex1, .sec7__main__flex2{
+        gap:2vw;
+        .Frame{
+                height:20vh;
+        }
+        .sec7__main__flex2_div2{
+
+            & h2{
+                font-size: 0.8rem;
+            }
+            .foot-icons{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                & img{
+                    margin: 1vh 0;
+                }
+            }
+
+            & button{
+                margin: 3vh 2vw 0 0;
+            }
+        }
+    }
+    .last-span{
+        font-size: 0.4rem;
+    }
+}
+
+
+
+
+@media(max-width:780px){
+    .sec-1__main{
+        height: 70vh;
+        .sec-1__main__navbar{
+
+            .sec-1__main__navbar__logo{
+
+                .sec-1__main__navbar__logo__img1{
+                    display: none;
+                }
+
+            }
+            .sec-1__main__navbar__links{
+
+                & ul{
+                    padding: 0;
+                }
+            }
+
+            .sec-1__main__navbar__buttons{
+
+                .sec-1__main__navbar__buttons__btn1,.sec-1__main__navbar__buttons__btn2{
+                  font-size: 0.6rem;
+                  font-weight: bold;
+
+                }
+            }
+        }
+
+        .sec-1__main__body{
+
+            .sec-1__main__body__flex-box{
+                .sec-1__main__body__flex-box__texts{
+                    & h2{
+                        font-size: 1.7rem;
+                    }
+                }
+
+                .sec-1__main__body__flex-box__texts__btn-flex{
+                    & img{
+                        height: 10vh;
+                    }
+                    & button{
+                        font-size: 0.7rem;
+                        font-weight: bold;
+                    }
+                }
+                .sec-1__main__body__flex-box__img{
+                    & img{
+                        height: 45vh;
+                    }
+                }
+            }
+        }
+    }
+
+    .sec-2__main{
+        padding: 0;
+        .sec-2__main-flex{
+            .sec-2__main__div{
+                .sec-2__main__div-flex{
+                    & img{
+                        height: 40%;
+                    }
+
+                    & h2{
+                     font-size: 1rem;
+
+                    }
+                }
+            }
+        }
+    }
+
+    .sec-3__main-flex{
+        height: 30vh;
+
+        .sec-3__main-flex__img{
+            & img{
+                height: 40vh;            
+                width: 33vw;
+            }
+        }
+
+        .sec-3__main-flex__texts{
+            padding: 0;
+        }
+    }
+
+    .sec4__main-flex{
+        
+        gap: 0;
+        margin: 15vh 0 0;
+        justify-content: space-evenly;
+        padding: 0;
+
+        .sec4__main-flex_box1, .sec4__main-flex_box2{
+            .sec4__main-flex_box1__card,.sec4__main-flex_box2__card{
+                width: 22vw;
+                gap: 8vw;
+
+                .sec4__main-flex_box1__card__bottom-sec, .sec4__main-flex_box2__card__bottom-sec{
+                    & button{
+                    width: 15vw;
+                    }
+                }
+            }
+        }
+    }
+
+    .sec5__main{
+        height: 40vh;
+        padding: 0 0 5vh;
+    }
+}   
+
+@media(max-width: 650px){
+    .sec-1__main{
+        margin: 0 0 10vh;
+        height: 60vh;
+        .sec-1__main__navbar{
+        justify-content: space-between;
+
+            .sec-1__main__navbar__buttons{
+                display: none;
+            }
+        }
+
+        .sec-1__main__body{
+            padding: 5vh 2vw;
+            .sec-1__main__body__flex-box{
+                .sec-1__main__body__flex-box__texts{
+                    & p{
+                        margin: 1vh 0;
+                    }
+                }
+                .sec-1__main__body__flex-box__img{
+                    & img{
+                        height: 35vh;
+                    }
+                }
+            }
+        }
+    }
+
+    .sec4__main-flex{
+        .sec4__main-flex_box1,.sec4__main-flex_box2{
+            .sec4__main-flex_box1__card,.sec4__main-flex_box2__card{
+                .sec4__main-flex_box1__card__top-sec,.sec4__main-flex_box2__card__top-sec{
+                    height: 25vh;
+                    & img{
+                        height: 10vh;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:550px){
+    .sec-1__main{
+        height: 90vh;
+        .sec-1__main__body{
+            .sec-1__main__body__flex-box{
+                flex-direction: column-reverse;
+                .sec-1__main__body__flex-box__texts{
+                    width: 100%;
+                    text-align: center;
+
+                    & p{
+                        width: 90%;
+                    }
+                    order: 0;
+                }
+                .sec-1__main__body__flex-box__texts__btn-flex{
+                    width: 100%;
+                    display: grid;
+                    place-items: center;
+                    order: 1;
+                    & img{
+                        display: none;
+                    }
+                    & button{
+                        padding: 2vh 9vw;
+                    }
+                }
+
+                .sec-1__main__body__flex-box__img{
+                    & img{
+                        border-radius: 50% 50% 30px 30px;
+                        margin: {
+                            bottom: 5vh;
+                        };
+                    }
+                }
+            }
+        }
+    }
+
+    .sec-2__main{
+        display: none;
+    }
+
+    .sec-3__main-flex{
+        height: 80vh;
+        flex-direction: column;
+        position: relative;
+        padding: 15vh 0;
+
+        .sec-3__main-flex__img{
+            width: 100%;
+            display: grid;
+            place-items: center;
+            & img{
+                height: 50vh;
+                width: 80%;
+                border-radius: 200px 80px 200px 80px;
+            }
+        }
+
+        .sec-3__main-flex__texts{
+            width: 100%;
+            padding: 0 9vw;
+            text-align: center;
+            & h2{
+                position: absolute;
+                top: 0;
+                left: 40%;
+                font-size: 2rem;
+
+            }
+            & h3{
+                position: absolute;
+                top: 5vh;
+                left: 35%;
+                font-size: 2rem;
+
+            }
+
+            & button{
+                width: 70%;
+            }
+        }
+    }
+
+    .sec4__main-flex{
+    height: 120vh;
+    display: block;
+    .sec4__main-flex_box1, .sec4__main-flex_box2{
+        .sec4__main-flex_box1__card,.sec4__main-flex_box2__card{
+            width: 35vw;
+            margin: 5vh 0 0;
+            .sec4__main-flex_box1__card__top-sec,.sec4__main-flex_box2__card__top-sec{
+                padding: 2vh 0 0;
+                & img{
+                    height: 15vh;
+                    margin: 0;
+                }
+            }
+            .sec4__main-flex_box1__card__bottom-sec, .sec4__main-flex_box2__card__bottom-sec{
+                padding: 2vh 0 0;
+
+                & button{
+                    width: 80%;
+
+                }
+            }
+        }
+    }
+
+    }
+
+    .sec7__main{
+        height: 60vh;
+        padding: 0 3vw;
+        display: block;
+        text-align: center;
+        & ul{
+            display: none;
+        }
+        .sec7__main__flex1{
+            .Frame{
+                height: 30vh;
+            }
+        }
+        .sec7__main__flex2_div1{
+            display: none;
+        }
+
+        .sec7__main__flex1, .sec7__main__flex2{
+            .sec7__main__flex2_div2{
+                .foot-icons{
+                    display: flex;
+                    gap: 3vw;
+                }
+
+            }
+        }
+    }
+}
+
+@media(max-width:420px){
+    .sec4__main-flex{
+        height: 130vh;
+        padding: 10vh 0;
+        .sec4__main-flex_box1, .sec4__main-flex_box2{
+            .sec4__main-flex_box1__card,.sec4__main-flex_box2__card.sec4__main-flex_box1__card,.sec4__main-flex_box2__card{
+                width: 40vw;
+            }
+        }
+    }
+
+    .sec5__main{
+    height: 30vh;
+    display: grid;
+    place-items: center;
+        .sec5__main__top-sec{
+            height: 15vh;
+            .sec5__main__top-sec__texts{
+                & h2{
+                    font-size: 1rem;
+                    margin: 0;
+                }
+                & h3{
+                    font-size: 0.8rem;
+                    margin: 0;
+                }
+            }
+        }
+    }
+
+    .last-span{
+        font-size: 0.4rem;
+    }
+}
+
+@media(max-width:380px){
+    .sec6-main{
+        border-radius: 50px;
+        .sec6__main__forms{
+            .sec6__main__forms-row1, .sec6__main__forms-row2{
+                flex-direction: column;
+                margin: 0;
+
+                & input{
+                    width: 100%;
+                 margin: 0 0 2vh;
+
+                }
+
+            }
+
+            .sec6__main__forms-row3{
+                & input{
+                    width: 100%;
+                }
+            }
+            .sec6__main__forms-row4{
+                margin: 0;
+                & textarea{
+                    margin: 2vh 0  ;
+                    width: 100%;
+                    height: 15vh;
+                }
+            }
+
+            .sec6__main__forms__sum-btn{
+                & button{
+                  width: 70%;
+                }
+            }
+        }
+    }
+}
+
+@media(max-width:330px){
+    .sec-1__main{
+        .sec-1__main__navbar{
+            .sec-1__main__navbar__links{
+                display: none;
+
+            }
+            .sec-1__main__navbar__links_burger{
+                display: block;
+                cursor: pointer;
+
+                .burg-big{
+                    margin: 5px 0;
+                    display: block;
+                    height: 3px;
+                    width: 30px;
+                    background-color: rgb(118, 88, 200);
+                }
+                .burg-smal{
+                    height: 3px;
+                    background-color: rgb(118, 88, 200);
+                    display: block;
+                    width: 20px;
+
+                }
+
+            }
+        }
+    }
+    .sec-3__main-flex{
+        .sec-3__main-flex__img{
+            & img{
+                height: 40vh;
+            }
+        }
+        .sec-3__main-flex__texts{
+            & h2{
+                font-size: 1.2rem;
+                left: 37%;
+            }
+            & h3{
+                font-size: 1rem
+            }
+        }
+    }
+
+
+
+    
+}
