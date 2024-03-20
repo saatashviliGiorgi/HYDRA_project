@@ -130,8 +130,10 @@ body {
   border-radius: 40px;
   background: linear-gradient(90deg, #8176AF 0%, #C0B7E8 100%);
   outline: none;
-  padding: 2vh;
+  padding: 2vh 2vw;
+  font-weight: bold;
   border: none;
+  font-size: 1rem;
   cursor: pointer;
   -webkit-box-shadow: 15px 16px 39px -19px rgba(0,0,0,1);
   -moz-box-shadow: 15px 16px 39px -19px rgba(0,0,0,1);
@@ -152,6 +154,7 @@ body {
 }
 .sec-1__main .sec-1__main__body .sec-1__main__body__flex-box .sec-1__main__body__flex-box__img img {
   border-radius: 30px 30px 30px 50%;
+  height: 55vh;
   outline: 10px solid rgba(0, 0, 0, 0.13);
 }
 
@@ -547,9 +550,15 @@ body {
   scale: 1;
   box-shadow: none;
 }
+@media (max-width: 1025px){
+  .sec-1__main .sec-1__main__body .sec-1__main__body__flex-box .sec-1__main__body__flex-box__img img{
+    height: 50vh;
+  }
+
+
+
 @media (max-width: 950px) {
   .sec-1__main {
-    height: 80vh;
     margin-bottom: 10vh;
   }
   .sec-1__main .sec-1__main__body {
@@ -653,12 +662,8 @@ body {
   scroll-margin: 10vh 0 0;
 
 }
-
-@media (max-width: 1025px){
-  .sec-1__main .sec-1__main__body .sec-1__main__body__flex-box .sec-1__main__body__flex-box__img img{
-    height: 50vh;
-  }
 }
+
 @media (max-width: 780px) {
   .sec-1__main {
     height: 70vh;
